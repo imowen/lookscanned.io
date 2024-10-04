@@ -15,7 +15,8 @@
 </template>
 
 <script lang="ts" setup>
-  import AdComponent from './AdComponent.vue' // 导入广告组件
+import { onMounted } from 'vue'
+import AdComponent from './AdComponent.vue' // 导入广告组件
 import { featureDetect } from '@/utils/scan-renderer/canvas-scan'
 import CanvasScanView from './CanvasScanView.vue'
 import MagicaScanView from './MagicaScanView.vue'
