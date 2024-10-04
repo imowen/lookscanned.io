@@ -23,7 +23,8 @@ import MagicaScanView from './MagicaScanView.vue'
 
 const supportCanvasScan = featureDetect()
   onMounted(() => {
-  // 初始化 AdSense
+    // 初始化 AdSense
+    // @ts-ignore
   ;(window.adsbygoogle = window.adsbygoogle || []).push({})
 })
 </script>
