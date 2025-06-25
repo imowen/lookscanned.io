@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'index',
-      component: IndexView
+      component: () => import('@/views/ScanViewFeatureDetectView.vue')
     },
     {
       path: '/scan',
