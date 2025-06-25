@@ -1,8 +1,6 @@
 <template>
   <MainContainer>
-    <div style="margin-bottom: 25px">
-      <BackToIndex />
-    </div>
+   
     <n-grid x-gap="25" y-gap="25" :cols="12" item-responsive responsive="screen">
       <n-grid-item span="12 s:5 m:4 l:3">
         <n-space vertical>
